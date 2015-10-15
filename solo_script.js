@@ -36,7 +36,7 @@ $(document).ready(function(){
       $('#content').append("<div class = 'personContainer'></div>");
       $personDiv = $('#content').children().last();
       $personDiv.append("<li></li>"); 
-      $personDiv.append("<button>click me</button>");
+      $personDiv.append("<button>DELETE</button>");
       $personDiv.find('li').text(array[i].name + ", " + array[i].sti + ", " + array[i].salary + ", " + array[i].salaryIncrease); 
       
     }
